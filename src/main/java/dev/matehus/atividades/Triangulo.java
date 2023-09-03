@@ -16,7 +16,7 @@ public class Triangulo implements FormaSuperClasse {
 
     @Override
     public double calculaArea() {
-        return lado * lado * Math.cbrt(3);
+        return (base * altura) / 2;
     }
 
     @Override
